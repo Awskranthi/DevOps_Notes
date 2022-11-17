@@ -1,1 +1,69 @@
 SDLC - Software Development Life Cycle
+what is waterfall:
+The Waterfall Model was the first Process Model to be introduced. It is also referred to as a linear-sequential life cycle model. It is very simple to understand and use. In a waterfall model, each phase must be completed before the next phase can begin and there is no overlapping in the phases.
+
+Requirement Gathering and analysis − All possible requirements of the system to be developed are captured in this phase and documented in a requirement specification document.
+
+System Design − The requirement specifications from first phase are studied in this phase and the system design is prepared. This system design helps in specifying hardware and system requirements and helps in defining the overall system architecture.
+
+Implementation − With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing.
+
+Integration and Testing − All the units developed in the implementation phase are integrated into a system after testing of each unit. Post integration the entire system is tested for any faults and failures.
+
+Deployment of system − Once the functional and non-functional testing is done; the product is deployed in the customer environment or released into the market.
+
+Maintenance − There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
+
+Waterfall Model - Advantages
+
+Simple and easy to understand and use
+
+Easy to manage due to the rigidity of the model. Each phase has specific deliverables and a review process.
+
+Phases are processed and completed one at a time.
+
+Works well for smaller projects where requirements are very well understood.
+
+Clearly defined stages.
+
+Well understood milestones.
+
+Easy to arrange tasks.
+
+Process and results are well documented.
+
+Waterfall Model - Disadvantages
+The major disadvantages of the Waterfall Model are as follows −
+
+No working software is produced until late during the life cycle.
+
+High amounts of risk and uncertainty.
+
+Not a good model for complex and object-oriented projects.
+
+Poor model for long and ongoing projects.
+
+Not suitable for the projects where requirements are at a moderate to high risk of changing. So, risk and uncertainty is high with this process model.
+
+It is difficult to measure progress within stages.
+
+Cannot accommodate changing requirements.
+
+Adjusting scope during the life cycle can end a project.
+ whats is devops 
+ DevOps combines development (Dev) and operations (Ops) to unite people, process, and technology in application planning, development, delivery, and operations. DevOps enables coordination and collaboration between formerly siloed roles like development, IT operations, quality engineering, and security.
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fmarvel-b1-cdn.bc0a.com%2Ff00000000236551%2Fdt-cdn.net%2Fwp-content%2Fuploads%2F2021%2F07%2F13429_ILL_DevOpsLoop.png&imgrefurl=https%3A%2F%2Fwww.dynatrace.com%2Fnews%2Fblog%2Fwhat-is-devops%2F&tbnid=gJxUZO_gF5ItiM&vet=12ahUKEwiLgc-ph7X7AhX4odgFHaikAL8QMygEegUIARDrAQ..i&docid=RIDz7cQACLp61M&w=800&h=450&q=what%20is%20devops&ved=2ahUKEwiLgc-ph7X7AhX4odgFHaikAL8QMygEegUIARDrAQ
+Devops lifecycle:planning --------code----bulid---------test-----------realse-----depoly------operate------moniter
+
+plan : first state of devops cycle when you plan track,visulaize,and summarize your project before working --tools (jira,trello,)
+code--cycle where devlopers writetheire code(eclipse,git,subversion)
+bulid:bulid is aprerealse version and identified by abulid number rather than by realse number.(jenkins,gradle,moven)
+test_---(apache,jmeter)
+relase(trariscl,github,bamboo)
+deploy_---Aws,CHEF PUBBET )
+operater_---AWS,CHEF,
+moniter__nagios,sens,splunk,ELK,ZABBIX,PROMEPHEUS
+
+(versionalcontrol)-----bulid--------unittest------deploy---------autotest---------deployto production-----measure+validate
+
