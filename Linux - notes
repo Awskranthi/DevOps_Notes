@@ -10,4 +10,7 @@ Compents Of Linuxos:1)Init Programe-------,>Boot Loader------>>, Software Librar
 Init program:The first program which is respoible for the itilztion of th system ex:sysvinit,systemd 
 Boot loader: a program which loads the operating system 
 (Architecure Of Linux OS ): Application----->Shell-------->Kernel---------->Hardware(Architecure Of Linux OS )
+Shell:The shell is the interface which takes user -command ans sendsit to the kernel
+APPLICTION --->SHELL--->Kern---->HARD WARE
+1)she got his own programming language and czn combine mltiple commands in a sinke scripts .The shell 
 
