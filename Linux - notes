@@ -141,4 +141,25 @@ cat –E
 This shows $ at the end of line
 
 
+Run Level in Linux 
+0---Halt the system ,1--single user mode
+2--mulitiple user mode with no network file system
+3 -- mulipiple  user mode CLIBUT NO Gui
+4--user definable
+5.multiple use mode in GIU
+6.reboot
+
+PIPE:
+
+pipe represened as "|" is used to direct the output of ine commsnd to another .it create an onternal connecion between or more commands,pipe galong most wirp grep is mos vommonly ued 
+ex:- catfil.txt/grep"linux"
+
+shell scripting : isa series of shell commands arrnged in atext file to be extued one faherafter he other .
+.simmallar to batch filr in windows
+helps to automate sequence of creating and also save time.
+can be created using any normal text editor
+
+
+command vim 
+
 
