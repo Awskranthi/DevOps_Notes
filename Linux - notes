@@ -30,3 +30,64 @@ Shell -----sent to Linux Kernel example :grep,awk,cat------BASH------10110000,10
 TYPES OF SHELL;-Shell --------BASH--CSHELL----KORNSHELL-------TSCHSHELl
 1)bourne-again shell was written as partof the GNUprojevt to enchancethe funcionally of asha (bourie-sheel)some enchancmnt likes command complicationcommand history are done
 command:--Deskops $echo shell
+
+one can enter "#/bin/bash" at the topof the file to tell linux to run with bash interpeter.
+
+commands :
+
+Linux provides a CLI (Command Line Interface) to communicate with the OS. Here are the most basic of the Linux Commands.
+
+1. pwd (print working diretory )-starring from the root 
+1)pwd -L-symobalic path 
+2)pwd-P-prints the actual path 
+Displays the current working directory of the terminal.
+
+syntax:
+
+$ pwd
+
+$ pwd
+/home/sudha 
+
+echo command is used for the  displaying lines of text or string which are passed as arguments on the command line. 
+This is one of the basic command in linux and most commonly used in shell scripts. In this tutorial, we will look at the different options of echo command.
+
+Writes its arguments to standard output.
+
+syntax:
+
+$ echo "<text>"
+
+clear
+
+$ clear
+
+
+BASIC CLI COMMANDS :
+
+/Desktops$ echo "sudha"
+sudha
+/desktops$ echo $SHELL
+bin/bash
+desktops cat /etc/shells
+/etc/shells:valid login shells
+bin/sh
+/bin/dash
+bin/bash
+/bin/rbash
+
+HOW TO CHOOSE DISTRO
+the distro should be chosen based on the requriment of the user ,pursose of the use-prosenol or professional,easy to install,look and fell .for the tranning its is recomamend to use ubuntu .
+
+Ubuntu :most populor linux distro
+secure and reliable
+muliti variant realse
+easy to use 
+
+
+file:-- 
+You dont  need a command to check the  CPU  info.but can print yje file."/proc/cpuinfo/" 
+there are some special files that reprsent hardware devices, system information .etc,The /proc file system in Linux gives details about the Kernels run time operation in form of plain text fies.
+
+
+
