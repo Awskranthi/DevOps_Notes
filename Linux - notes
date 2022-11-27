@@ -225,6 +225,31 @@ Command execution:
 Syntax:
 Command <option><arguments>
 
+all commands:
+1)creating diretory with given name:mkdir
+
+list the content of directory :ls
+
+to see root directory:ls /
+
+to see only text file:ls*txt
+
+to see flodername before :ls ..
+to see two floders before:ls../..
+
+list the content of a current directory :ls-l
+list out normal and hidden files:ls-a
+to see only the directories:ls -d*/
+
+ls-a fcommand is used will list out all filles including hidden files.
+
+ls -r -R command in Linux
+ls -r option flag lists files/directories in reverse order.
+
+ls -R option flag lists directory tree recursively.
+
+
+
 
 
 
