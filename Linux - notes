@@ -1,14 +1,27 @@
 linux notes -22-11-2022
 linex commands 
+
 :What Is Linux :Linux Is A Open Source Operating System Module On Unix And Devloped In 'C'lang Open Source : 
+
 1)A Software Become Source If Its Source Code Freely Available. 
+
+
 The Free Software Moment Was Started In 1983 And 1998 Some Developers Code The Term Open Source To Make It Less And Andbiuous And Every One A Dapted To It Open
+
 Source Project Are Generealy A Collobration Effeort By Mulitiple Product And Allow Others To Get Benfit Of It .
+
 History Of Linux Linux Vs Unix Feacture Of Lunix:Open Source ,Monitry Cost,Huge Base,Reliable ,Licensing Freedom,Custmized,Secure .
+
 Where Linux Is Used:Servers,Supercpmputers,Gaming And Visual Effects ,Embedded System,Andriod,Nasa 
+
+
 Compents Of Linuxos:1)Init Programe-------,>Boot Loader------>>, Software Libraries(DLL)----------->,Package Managment-------->,Other Interface And Application
+
 Init program:The first program which is respoible for the itilztion of th system ex:sysvinit,systemd 
+
+
 Boot loader: a program which loads the operating system 
+
 (Architecure Of Linux OS ): Application----->Shell-------->Kernel---------->Hardware(Architecure Of Linux OS )
 Shell:The shell is the interface which takes user -command ans sendsit to the kernel
 APPLICTION --->SHELL--->Kern---->HARD WARE
@@ -160,6 +173,64 @@ helps to automate sequence of creating and also save time.
 can be created using any normal text editor
 
 
-command vim 
+command Vi
+Vi command is used for most editig file 
+
+
+creating a shell script:
+to get into the root for execution Sudo-i ceate a text file and add the extenstion of te shell #vi scripit.sh------>Enter some commands in the scripts tobe executed eho"My firstscript" echo$(date)------>change the permission of the script , give it executable permission and may also give read and execute permission for the othr users #chmond 755 script .sh---------->Run the sript  #/script.sh #bash script.sh  
+
+creating a shell script
+
+sub-i
+ #vi scripit.sh
+ 
+
+echo"my first Script" echo$(date)
+
+#chmod 755 script.sh
+
+#/script.sh #bash script.sh
+
+Practical uses of shell scripting 
+1)Data backup at regular iterval of time in the background
+
+2)tofid out the number of user and theier details
+
+3)find details about various process and sorting hem based on CPU usage ,run time,
+
+4)to append each file with a signature , date etc.
+
+5)for schedulling tasks to be done at networking severs
+
+6)creating new users by providing permission just by entering username .
+
+
+USER INTERFACE IN LINUX
+
+user iterface is avisual part of Operating system through which a user interacts with a computer or a software
+
+COMMAND LINE INTERFACE (CLI)
+
+command line interfae give commands in the form of linesof text to the program .the program which handles it is called a command language interpreter.
+
+Usr interface in Linux
+graphical user interface with users with icons,floder , wallpapers,widgets and visual indicators to makes it easier for the user to access the program.
+CLI--------->graphical user iterface(GUI)  mate,k,Gnome,CINNAMON
+
+Command execution:
+1)one needs terminial (CLI) to execute the command 
+2)Multiple commands can be executed sequentally by addin "," in between them .
+
+Syntax:
+Command <option><arguments>
+
+
+
+
+
+
+
+
 
 
