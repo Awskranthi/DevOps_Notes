@@ -1,14 +1,11 @@
-linux notes -22-11-2022
-linex commands 
+What Is Linux :
+Linux Is A Open Source Operating System Module On Unix And Devloped In 'C'lang Open Source : 
+Open source 
+•	A Software Become Source If Its Is Source Code Freely Available. 
+	
+•	The Free Software Moment Was Started In 1983 And 1998 Some Developers Code The Term Open Source To Make It Less And Ambiguous And Every One A Adapted To It.
 
-:What Is Linux :Linux Is A Open Source Operating System Module On Unix And Devloped In 'C'lang Open Source : 
-
-1)A Software Become Source If Its Source Code Freely Available. 
-
-
-The Free Software Moment Was Started In 1983 And 1998 Some Developers Code The Term Open Source To Make It Less And Andbiuous And Every One A Dapted To It Open
-
-Source Project Are Generealy A Collobration Effeort By Mulitiple Product And Allow Others To Get Benfit Of It .
+•	Open source Project Are Generally A Collaboration Effort By Multiple Sets Of Developers To Enhance The Product And Allow Others To Get Benefit Of It .
 
 History Of Linux Linux Vs Unix Feacture Of Lunix:Open Source ,Monitry Cost,Huge Base,Reliable ,Licensing Freedom,Custmized,Secure .
 
@@ -254,7 +251,7 @@ ls -R option flag lists directory tree recursively.
 
 mv command 
 
-Move Single File or Directory from One Directory to Another
+Move Single File or Directory from One Directory to Anothe
 
 $ mv directory1 directory2
 
