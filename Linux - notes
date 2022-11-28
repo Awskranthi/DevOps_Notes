@@ -24,9 +24,13 @@ Boot loader: a program which loads the operating system
 
 (Architecure Of Linux OS ): Application----->Shell-------->Kernel---------->Hardware(Architecure Of Linux OS )
 Shell:The shell is the interface which takes user -command ans sendsit to the kernel
+
 APPLICTION --->SHELL--->Kern---->HARD WARE
+
 The kneral is the interface between the application and the actual process done ate the Hardware level . 
+
 Tasks peformend by the kernel 1)resources Allocation :-Manage he computers resources and allow other programs to run and use these resources ,
+
 2)security Managment: provided the security and protection from faults and maliicious behaviours, 
 process management: allows the execution of application and suport tem with feacturesuch as hardware abstraction.
 device management:maintains a list of available devicesand allow drives to physically acess their devices .
@@ -248,9 +252,15 @@ ls -r option flag lists files/directories in reverse order.
 
 ls -R option flag lists directory tree recursively.
 
+mv command 
 
+Move Single File or Directory from One Directory to Another
 
+$ mv directory1 directory2
 
+Move Multiple File or Directories from One Directory to Another
+
+$ mv file1 file2 file3 dir1
 
 
 
