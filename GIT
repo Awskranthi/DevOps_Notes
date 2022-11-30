@@ -62,7 +62,33 @@ With distributed version control systems, clients don’t just check out the lat
 
 Git is the most well-known example of distributed version control systems.
 
-remote sever : 
+remote sever -----GIT HUB-----centeral servrer
+
+WHY GIT ISA CLEAR WINNER :
+
+sanpshots :
+
+Git recordschanges made to a file rather than file itself.that means if files is not changed its not store again.
+
+distributed:
+
+every usery have won copy respitory data its stored locally along with full functionality even on disconnection.
+
+integrity:
+
+check some berfore storing ensue that you cant make any changes to anything without git recording that changes.
+
+robust: 
+nearly very task in Git is undoable and it is really hard to lose any changes or data in Git .
+
+branch handling: every collaborrators working directory is in itslef a branch.Different branches can be merged withease . 
+
+Fast Operation : Alomost every operation on gits is local, hence the speed offered by Gits is ligtning fast compared to other VCS'S . 
+
+what is Git?
+
+Git is an open source distributed version version control  system which records change made to the files laying empnasis on speed data integrity and distributed, non linear workflows . 
+
 
 
 
