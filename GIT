@@ -19,14 +19,54 @@ A vc software supports a developer's perefered workflow without imposing one way
 
 what is version control: 
 
-version control is asystem that documents chnges made to file on a set a file ,it allow to mutilpule users management 
+version control is asystem that documents chnges made to file on a set a file ,it allow to mutilpule users management multiple user management
+VCS is basically software designed to record changes within one or more files over time. 
+It allows us to undo or to cancel all made or pending changes within one or more files. 
+If we're working on a project with many files, VCS enables us to control the whole project. 
 
-Version ControlTypes:
 
-1)Centeralised Version control(CVC)
+The types of VCS are:
+
+Local Version Control System
+
+local version control system 
+A local version control system is a local database located on your local computer, in which every file change is stored as a patch. Every patch set contains only the changes made to the file since its last version. In order to see what the file looked like at any given moment, it is necessary to add up all the relevant patches to the file in order until that given moment.
+
+The main problem with this is that everything is stored locally. If anything were to happen to the local database, all the patches would be lost. If anything were to happen to a single version, all the changes made after that version would be lost.
+
+Also, collaborating with other developers or a team is very hard or nearly impossible.
+
+2. Centralized Version Control System
+
+local version controls issues are resolved by centralized control 
+
+In  cvc,a central resporitry is maintained where all the versionesd files kept 
+
+now user can checkout , and check-in files from theire different computer  at any time .
+
+This allows for easy collaboration with other developers or a team.
+
+The biggest issue with this structure is that everything is stored on the centralized server. If something were to happen to that server, nobody can save their versioned changes, pull files or collaborate at all. Similar to Local Version Control, if the central database became corrupted, and backups haven't been kept, you lose the entire history of the project except whatever single snapshots people happen to have on their local machines.
+
+The most well-known examples of centralized version control systems are Microsoft Team Foundation Server (TFS) and SVN.
+
+issues: in case cvc failure whole system goes down
+solution: distrubuted version control 
+
+3. Distributed Version Control System  
+
+version data base is stored at every users loca sytem and at the remoesevser ,uses mainpulate the local files and thenupload the change to the remote sever.
+if any of the sever die, a client sever can used to.
+
+With distributed version control systems, clients don’t just check out the latest snapshot of the files from the server, they fully mirror the repository, including its full history. Thus, everyone collaborating on a project owns a local copy of the whole project, i.e. owns their own local database with their own complete history. With this model, if the server becomes unavailable or dies, any of the client repositories can send a copy of the project's version to any other client or back onto the server when it becomes available. It is enough that one client contains a correct copy which can then easily be further distributed.
+
+Git is the most well-known example of distributed version control systems.
+
+remote sever : 
 
 
-2)local version control (LVC)
+
+
 
 
 
