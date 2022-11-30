@@ -83,6 +83,8 @@ Description:  Echo the string(s)to standard output
 
 
 
+
+
 echo command is used for the  displaying lines of text or string which are passed as arguments on the command line. 
 This is one of the basic command in linux and most commonly used in shell scripts. In this tutorial, we will look at the different options of echo command.
 
