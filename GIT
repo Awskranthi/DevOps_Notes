@@ -1,1 +1,33 @@
 git 
+version control of Git 
+
+real world 
+
+manage directory pipeline :CI/CD---------->TRAINING --------->AUTOMECHINE--------->PROVISION /CONF(linux  sever )
+
+why need version control?
+
+lets consider a multinatinal company that has its office and empolyees all around the glope 
+1. collabration 
+2. storage version 
+3.figuring out what happend 
+4.Backup 
+
+version cotrol helps the teams to solve these kinds of (collabration,tracking changes,backing) problems,by tracking every individual changes by each contributor and helps prevent concurrent work from conflicting.
+
+A vc software supports a developer's perefered workflow without imposing one way to working.
+
+what is version control: 
+
+version control is asystem that documents chnges made to file on a set a file ,it allow to mutilpule users management 
+
+Version ControlTypes:
+
+1)Centeralised Version control(CVC)
+
+
+2)local version control (LVC)
+
+
+
+
