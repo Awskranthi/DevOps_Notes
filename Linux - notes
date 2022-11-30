@@ -98,6 +98,99 @@ clear
 
 $ clear
 
+echo 
+
+syntx :
+
+echo [option] [string]
+
+echo $SHELL
+
+/bin/bash 
+
+/bin/echo --help 
+
+use the --help argument to list all avilable echo command option 
+
+echo -e 
+
+Using the -e option allows you to use escape characters. These special characters make it easy to customize the output of the echo command.
+
+For instance, using \c let you shorten the output by omitting the part of the string that follows the escape character:
+
+echo -e 'Hello, World! \c This is PNAP!'
+
+Using the echo command with the c escape character
+
+Note: If you are using the -e option, enter your string enclosed in single quotation marks. This ensures that any escape characters are interpreted correctly.
+
+Use \n any time you want to move the output to a new line:
+
+echo -e 'Hello, \nWorld, \nthis \nis \nPNAP!'
+
+Using the echo command with the n escape character
+
+Add horizontal tab spaces by using \t:
+
+echo -e 'Hello, \tWorld!'
+
+Using the echo command with the t escape character
+
+Use \v to create vertical tab spaces:
+
+echo -e 'Hello, \vWorld, \vthis \vis \vPNAP!'
+
+Using the echo command with the v escape character
+
+Using ANSI escape sequences lets you change the color of the output text:
+
+echo -e '\033[1;37mWHITE'
+echo -e '\033[0;30mBLACK'
+echo -e '\033[0;31mRED'
+echo -e '\033[0;34mBLUE'
+echo -e '\033[0;32mGREEN'
+
+Changing output text color
+
+Writing to a File
+
+Use > or >> to include the string in an echo command in a file, instead of displaying it as output:
+
+sudo echo -e 'Hello, World! \nThis is PNAP!' >> test.txt
+
+If the specified text file doesn’t already exist, this command will create it. Use the cat command to display the content of the file:
+
+cat test.txt
+Using the echo command to write the output into a file
+
+Note: Using > overwrites the content of the text file with the new string, while >> adds the new string to the existing content.
+
+
+Displaying Variable Values
+
+The echo command is also used to display variable values as output. For instance, to display the name of the current user, use:
+
+echo $USER
+
+Using the echo command to display a variable value
+Displaying Command Outputs
+The echo command allows you to include the result of other commands in the output:
+
+echo "[string] $([command])
+
+Where:
+
+[string]: The string you want to include with echo
+[command]: The command you want to combine with the echo command to display the result.
+For instance, list all the files and directories in the Home directory by using:
+
+echo "This is the list of directories and files on this system: $(ls)"
+
+Using the echo command to display the output of other commands
+Con 
+
+
+
 
 BASIC CLI COMMANDS :
 
