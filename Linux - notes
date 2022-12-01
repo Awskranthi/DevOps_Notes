@@ -229,7 +229,19 @@ $rmdir new-dir/
 ls
 ls command
 ls command is used display a list of conent of a directory 
+
 $ls
+
+1. Listing files in reverse order:-r
+
+decrption: To list files in reverse order, append the -r flag as shown Syntax
+
+syentx:  :$ ls -r
+
+https://www.digitalocean.com/community/tutorials/linux-commands
+
+
+
 
 cd command is used for change the current directory 
 
