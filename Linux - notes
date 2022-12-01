@@ -70,7 +70,16 @@ print the full file name of the current working directory .
 2)pwd-P-prints the actual path 
 Displays the current working directory of the terminal.
 
-syntax:
+
+cd command :
+While working within the terminal, moving around within directories is pretty much a necessity. The cd command is one of the important Linux commands you must know and it will help you to navigate through directories. Just type cd followed by directory as shown below.
+
+ syentex: cd <directory path>
+Cd Command Default
+
+As you can see in the above command, I simply typed cd /etc/ to get into the /etc directory. We used the pwd command to print the current working directory.
+
+Thesyntax:
 
 $ pwd
 
