@@ -138,7 +138,31 @@ to see ls commands all options
 
 man ls
 
+2. mkdir command 
 
+mkdir :
+
+to make a directory 
+
+mkdir newdir
+
+To make a subdirectory 
+
+mkdir newdir/test1
+
+to create a directory and subdirectory both 
+
+mkdir -p newdir/test1
+
+mkdir -p newdir/a/b/c/d
+
+to create multiple directories 
+
+mkdir -p nwe4/{a,b}
+
+to see every option of directory command 
+
+man mkdir 
 
 
 
