@@ -164,6 +164,209 @@ to see every option of directory command
 
 man mkdir 
 
+3. cat command 
+
+cat concatenate 
+
+contacatent and display file
+
+create a file
+
+cat > file name.txt
+
+cat fil.txt
+
+cat >file1.txt
+file1.
+close-ctrl+d
+
+cat >file1.txt
+
+to display any text and file content
+
+cat any text 
+
+cat filename.txt
+hi this sudha 
+
+cat > file2.txt 
+second file 
+
+cat filename.txt file2.txt
+
+hi this sudha
+second file 
+
+to see the line number 
+
+cat -n file1.txt
+
+cat >file1.txt
+abbbbbbbb
+dbbbbbbbbbb
+cbbbbbbbbb
+
+tosee the number line(except blank line)
+
+
+cat -b file1txt
+ 
+remove extra blank line
+
+cat -s file1.txt
+
+append 2 files
+
+cat file1.txt >> file 2.txt
+
+this is file2
+this is fie1
+
+cat file1.txt file2.txt>>file0.txt
+
+
+for append
+
+cat >>filename.txt
+we can add more content to this file through the same command.)
+
+cat >>file0.txt
+this is file3
+
+cat >file0.txt
+new file
+
+echo
+
+the echo command is used the display text and variables 
+
+echo hello tony
+
+2.echo
+
+echo -e "hello \nbin"(new line)
+echo "hello tony"
+out put :
+
+echo -e "hello \ntony"
+hello
+tony
+
+
+echo -e "hello \tbin"(new tab)
+
+echo -e "hello \ttony"
+hello tony
+viribles:
+
+v="bin"
+echo $v
+
+v="2"
+echo $v
+
+v="2"
+u="hello"
+echo $v $u
+hello
+
+sudo command :adimmin axess used
+
+sudo stnds for super user DO
+
+sudo command is used to access restricted files and operations in linux O
+sudo cat<file1.txt
+
+sudo mkdir dir1
+
+/bin$ cat .file1.txt
+
+active superuser mode
+sudo -s
+
+pwd ask 
+
+password for tony:
+
+/usr/bin# cat >file1.txt
+
+mkdir dir1
+
+
+supper to normal 
+
+
+mv command:
+
+moving/renaming files
+
+mv file1 file2
+
+mv file.txt file2.txt
+
+mv file1.txt
+
+
+move a file into another directory 
+
+mv file directory 
+
+text:mv file2.t
+
+
+if the filealredy exists in the directory 
+
+mv-i file1 dir
+
+mv -i file2.txt dir1
+mv :overwrite "dir1/file2.txt'? y
+
+
+move from one directory to another directory
+
+mv dir1 dir2
+man md 
+
+
+touch comand 
+
+linux touc commnd is used to create an empty file and change and modify timepstamps of a file
+
+change the time
+
+touch file name
+
+ls-l
+
+
+create file name
+
+touch file.nxt1
+
+
+less command
+
+to display the contents of a file in organized way 
+
+less file.txt
+
+cat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c
+
 
 
 
