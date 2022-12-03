@@ -56,6 +56,93 @@ eg: man whoami
 
 Descrpition : man command in Linux is used to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS and SEE ALSO.
 
+ name command:ls
+
+discerption :list the contents of your current working directory information about the files  
+
+syentx:ls
+
+example :$ls 
+
+2. to see any specific floder name :
+
+ls 
+
+ls <floder name >
+
+ex :ls dictory 
+
+3. To see root Diretory 
+
+ls/
+
+
+4. to see only.txt files
+
+$ ls*.txt
+file.txt
+
+ls Flodername/*.*
+
+(first create file
+ $ cat >file.txt
+hello
+
+from next want outside-ctrl+d
+
+
+To see one floder before 
+
+ls..
+
+tony
+
+to see two floders before
+
+
+
+ls../..
+
+list the contents of the current diretory in long format (file, permissions,size,and date)
+
+ls-l
+
+
+it shows normal and hidden files.
+
+ls -a
+
+ls
+
+Lists contents and files size in kilobytes of the current diretory .
+
+ls -s
+
+To see only the directories  
+
+ls -d*/
+
+combination of -a and -l
+
+ls -al
+
+combination of -land -s
+
+ls -ls
+
+create a new file and store thse otput 
+
+ls -l> new.txt
+
+to see ls commands all options 
+
+man ls
+
+
+
+
+
+
 
 Linux provides a CLI (Command Line Interface) to communicate with the OS. Here are the most basic of the Linux Commands.
 
